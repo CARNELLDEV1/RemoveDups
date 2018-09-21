@@ -18,5 +18,10 @@
   <PropertyGroup>
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="RemoveDup.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
